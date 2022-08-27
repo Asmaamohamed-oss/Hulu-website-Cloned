@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normailze.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico.png" type="image/x-icon">
+    <title>Stream Tv and Movies Live and Online | Hulu</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <nav>
+            <ul class="main-list">
+                <li>
+                    <img src="imgs/logo.png" alt="logo" title="hulu" class="logo">
+                </li>
+                <li class="log-in-lg">
+                    <button class="open-modal">LOG IN</button> 
+                </li>
+                <li class="log-in-sm">
+                        <i class="fas fa-bars"></i>
+                </li>
+            </ul>
+            <!-- Show only on small screen-->
+            <ul class="bundle hide">
+                <li><button class="open-modal btn-1">log in</button></li>
+                <li><a href="#">Get the Disney bundle</a></li>
+            </ul>
+        </nav>
+        <div class="header-content"></div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Modal -->
+    <div class="modal">
+        <div class="modal-box">
+            <img src="imgs/close.svg" alt="close" class="close-modal">
+            <div class="modal-body">
+                <h3>Log In</h3>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <p><a href="#"> Forget your email or your password?</a></p>
+                    <button class="btn-1">Log in</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <p><span>Don't have an account? <a href="#">Start your free trial</a></span></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+    <!-- Start Landing -->
+        <section class="landing">
+            <div class="landing-content">
+                <p>bundle with any hulu palne & save</p>
+                <h1>
+                    <img src="imgs/logos.png" alt="logos">
+                </h1>
+                <p>Get endless entertainment, live sports, and the shows and movies you love.</p>
+                <button> get the disney bundle</button>
+                <p><a href="#">What's included?</a> See <a href="#">Bundle terma</a></p>
+                <a href="#" class="sign-up">Sign up for Hulu only</a>
+            </div>
+        </section>
+    <!-- End Landing -->
+
+    <!--Start Categories Section-->
+    <section class="categories">
+        <div class="section-header">
+            <h4>INCLUDED IN ALL PLANS</h4>
+            <p class="text-xl">
+                All  The TV You Love
+            </p>
+            <p class="sub-text">
+                Stream full seasons of exclusive series, current-season episodes, hit movies, Hulu Originals, kids shows, and more.
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <p>Past & Current Seasons</p>
+                    <h4>TV Shows</h4>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <p>News & Classic</p>
+                    <h4>Movies</h4>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <p>Groundbreaking</p>
+                    <h4>Hulu Originals</h4>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <p>Add-on</p>
+                    <h4>Premiums</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Categories Section-->
+    <!--Start Live-TV Section-->
+    <section class="live-TV">
+        <div class="section-header">
+            <h4>HULU + LIVE TV, NOW WITH DISNEY+ AND ESPN+</h4>
+            <p class="text-xl">
+                Live TV Makes It Better
+            </p>
+            <p class="sub-text">
+                Make the switch from cable. Get 75+ top channels on Hulu with your favorite live sports, news, and events - plus the entire Hulu streaming library. With Unlimited DVR, store Live TV recordings for up to nine months and fast-forward through your DVR content. Access endless entertainment with Disney+ and live sports with ESPN+. All three for a new price of $69.99/month.
+            </p>
+        </div>
+        <div class="live-desc">
+            <p>
+                18+ only. Regional restrictions, blackouts and <a href="#">Live TV terms apply</a>. Access content from each service separately and access ESPN+ content via Hulu. Location data required to watch certain content. Offer valid for eligible subscribers only. 
+            </p>
+            <p>
+                Unlimited DVR recording is not available for on-demand shows.
+            </p>
+        </div>
+        <a href="#" class="view-channels">
+            view channels in your area
+            <i class="fas fa-long-arrow-alt-right"></i>
+        </a>
+        <a href="#tabs"class="next-section">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </section>
+    <!--End Live-TV Section-->
+    <!-- Start Tabs -->
+    <section class="event-tabs tab-1" id="tabs">
+        <div class="btns-list">
+            <button data-btn="sports" class="active-btn event-btn-1"> Live sports</button>  
+            <button data-btn="news" class="event-btn-2">Breaking news </button> 
+            <button data-btn="events" class="event-btn-3" >Biggest events </button>  
+            <span class="sub-line sub-line-1"></span>
+        </div>
+
+        <div id="sports" class="active-content tab-content">
+            <h2>Live Sports</h2>
+            <p>
+                Catch your games at home or on the go. Stream live games from major college and pro leagues including the NCAA®, NBA, NHL, NFL, and more.
+            </p>
+            <div class="logos">
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-1.png" alt="">
+                </div>
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-2.png" alt="">
+                </div>
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-3.svg" alt="">
+                </div>
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-4.png" alt="">
+                </div>
+            </div>
+            <p>Live TV plan required. Regional restrictions, blackouts and additional terms apply. <a href="#">See details</a></p>
+        </div>
+        <div id="news" class="tab-content">
+            <h2>Breaking News</h2>
+            <p>Keep pace with what's going on locally and globally with trusted opinions from all the top news networks.</p>
+            <div class="logos">
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-1.png" alt="">
+                </div>
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-2.png" alt="">
+                </div>
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-3.svg" alt="">
+                </div>
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-4.png" alt="">
+                </div>
+            </div>
+            <p>Live TV plan required. Regional restrictions, blackouts and additional terms apply. <a href="#">See details</a></p>
+        </div>
+        <div id="events" class="tab-content ">
+            <h2>Biggest News</h2>
+            <p>Spectacular, can't-miss moments like the Olympics, Grammys®, Oscars®, Emmys®, and more.</p>
+            <div class="logos">
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-1.png" alt="">
+                </div>
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-2.png" alt="">
+                </div>
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-3.svg" alt="">
+                </div>
+                <div>
+                    <img src="imgs/network-logo-bg.png" alt="" class="circle">
+                    <img src="imgs/live-sports-logo-4.png" alt="">
+                </div>
+            </div>
+            <p>Live TV plan required. Regional restrictions, blackouts and additional terms apply. <a href="#">See details</a></p>
+        </div>
+    </section>
+    <!-- End Tabs -->
+    <!-- Start Select Your Plan Section -->
+    <section class="select-plan">
+        <div class="section-header">
+            <p class="text-xl">
+                Select Your Plan
+            </p>
+            <p class="sub-text">
+                No hidden fees, equipment rentals, or installation appointments.
+                Switch plans or cancel anytime.^^
+            </p>
+        </div>
+        <div class="plans">
+            <div class="plan-heads">
+
+                <div class="plan-head-one">
+                    <div class="hulu-plan">
+                        <p>Base plans</p>
+                        <img src="imgs/logo.png" alt="Hulu" title="Hulu">
+                    </div>
+                    <div class="toggle">
+                        <button class="toggle-btn"></button>
+                    </div>
+                    <div class="disney-plan">
+                        <p>bundle / save<i class="fas fa-circle-exclamation"></i></p>
+                        <img src="imgs/logos.png" alt="logos">
+                    </div>
+                </div>
+                <div class="base-plans-heads">
+                    <div class="plan-head-two">
+                        <p class="most-pop">most popular</p>
+                        <p class="free-trial">30 day free trial</p>
+                        <span>Hulu</span>
+                        <button>$6.99 / month</button>
+                    </div>
+                    <div class="plan-head-three">
+                        <div>
+                            <p class="free-trial">30 day free trial</p>
+                            <span>Hulu(No Adds)</span>
+                            <button>$12.99 / month</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- bundle-plans-heads -->
+                <div class="bundle-plans-heads">
+                    <div class="first-bundle-head">
+                        <p class="most-pop">most popular</p>
+                        <img src="imgs/plan-bundle-dark.svg" alt="">
+                        <span>Hulu</span>
+                        <button>$6.99 / month</button>
+                    </div>
+                    <div class="bundle-head">
+                        <div>
+                            <img src="imgs/plan-bundle-dark.svg" alt="">
+                            <span>Hulu(No Adds)</span>
+                            <button>$12.99 / month</button>
+                        </div>
+                    </div>
+                    <div class="bundle-head">
+                        <div>
+                            <img src="imgs/plan-bundle-dark.svg" alt="">
+                            <span>Hulu + live TV</span>
+                            <button>$12.99 / month</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cloumns">
+                <div class="base-cols">
+                    <div class="plan-info">
+                        <p class="plan-title">Monthly price</p>
+                        <p class="num">$6.99/mo. </p>
+                        <p class="num">$12.99/mo.</p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Streaming Library with thousands of TV episodes and movies</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Most new episodes the day after they air^</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Access to award-winning Hulu Originals</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Watch on your TV, laptop, phone, or tablet</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Up to 6 user profiles</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Watch on 2 different screens at the same time</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">No ads in streaming library</p>
+                        <p>_</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Download and watch</p>
+                        <p>_</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                </div>
+                <div class="bundle-cols">
+                    <div class="plan-info">
+                        <p class="plan-title">Monthly price. save up to $7.99/mo.*</p>
+                        <p class="num extra-text-1">$13.99/mo.</p>
+                        <p class="num extra-text-2">$19.99/mo.</p>
+                        <p class="num">$69.99/mo.</p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Hulu streaming library with thousands of episodes and movies</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Most new episodes the day after they air^</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Accsess to award-wrinning Hulu Originals</p> 
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Watch on your TV, laptop,phone,or tablet</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Endless entertainment with Disney+ , ad-free</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Live sport with ESPAN+, now on Hulu</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">No ads on Hulu streaming library</p>
+                        <p>_</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p>_</p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">Download and watch on Hulu</p>
+                        <p>_</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p>_</p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">live TV with 75+top channels. no cable required.</p>
+                        <p>_</p>
+                        <p>_</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">live TV guide to nagative channels</p>
+                        <p>_</p>
+                        <p>_</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="plan-info">
+                        <p class="plan-title">record live TV with unlimited DVR</p>
+                        <p>_</p>
+                        <p>_</p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="adds-container">
+                <div class="adds">
+                    <div class="adds-content">
+                        <div class="adds-header">
+                            <h2>Available Add-ons</h2>
+                            <p>Add-ons available at an additional cost.</p>
+                            <p>Add them up after you sign up for Hulu.</p>
+                        </div>
+                        <div class="plan-info first-add">
+                            <p class="plan-title">HBO Max™</p>
+                            <p><i class="fa-solid fa-check"></i></p>
+                            <p><i class="fa-solid fa-check"></i></p>
+                        </div>
+                        <div class="plan-info">
+                            <p class="plan-title">CINEMAX®</p>
+                            <p><i class="fa-solid fa-check"></i></p>
+                            <p><i class="fa-solid fa-check"></i></p>
+                        </div>
+                        <div class="plan-info">
+                            <p class="plan-title">SHOWTIME®</p>
+                            <p><i class="fa-solid fa-check"></i></p>
+                            <p><i class="fa-solid fa-check"></i></p>
+                        </div>
+                        <div class="plan-info">
+                            <p class="plan-title">STARZ®</p>
+                            <p><i class="fa-solid fa-check"></i></p>
+                            <p><i class="fa-solid fa-check"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="adds-btn show">Show Add-ons <i class="fa-solid fa-angle-up"></i></button>
+            </div>
+        </div>
+    </section>
+    <!-- End Select Your Plan Section -->
+    <!--Start Footer-->
+    <footer>
+        <div class="footer-links">
+            <div class="browse">
+                <h5 class="show-list show-browse-list" id="browse__"> 
+                    Browse 
+                    <i class="fa-solid fa-angle-down show-icon icon"></i>
+                    <!-- <i class="fa-solid fa-angle-up hide-icon icon"></i> -->
+                </h5>
+                <div class="browse-lists">
+                    <ul class="links-list">
+                        <li><a href="#" title="Streaming Library">Streaming Library</a></li>
+                        <li><a href="#" title="Live TV">Live TV</a></li>
+                        <li><a href="#" title="Live News">Live News</a></li>
+                        <li><a href="#" title="Live Sports">Live Sports</a></li>
+                    </ul>
+                    <ul class="links-list">
+                        <li><a href="#" title="TV Shows">TV Shows</a></li>
+                        <li><a href="#" title="Movies">Movies</a></li>
+                        <li><a href="#" title="Originals">Originals</a></li>
+                        <li><a href="#" title="Originals">Originals</a></li>
+                        <li><a href="#" title="Networks">Networks</a></li>
+                        <li><a href="#" title="Kids">Kids</a></li>
+                        <li><a href="#" title="FX">FX</a></li>
+                    </ul>
+                    <ul class="links-list">
+                        <li><a href="#" title="HBO Max™">HBO Max™</a></li>
+                        <li><a href="#" title="CINEMAX®">CINEMAX®</a></li>
+                        <li><a href="#" title="SHOWTIME®">SHOWTIME®</a></li>
+                        <li><a href="#" title="STARZ®">STARZ®</a></li>
+                    </ul>
+                    <ul class="links-list">
+                        <li><a href="#" title="Hulu,Disney+, and ESPAN">Hulu,Disney+, and ESPAN</a></li>
+                        <li><a href="#" title="Hulu(no-Ads),Disney+, and ESPAN">Hulu(no-Ads),Disney+, and ESPAN</a></li>
+                        <li><a href="#" title="Student Discount">Student Discount</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="help-and-about">
+                <div class="help">
+                    <h5 class="show-list show-help-list" id="help__">
+                        Help 
+                        <i class="fa-solid fa-angle-down show-icon icon"></i>
+                        <!-- <i class="fa-solid fa-angle-up hide-icon icon"></i> -->
+                    </h5>
+                    <ul class="links-list">
+                        <li><a href="#" title="Accound & Billing">Accound & Billing</a></li>
+                        <li><a href="#" title="Plans & Pricing">Plans & Pricing</a></li>
+                        <li><a href="#" title="Suported Devices">Suported Devices</a></li>
+                        <li><a href="#" title="Accessibility">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="about-us">
+                    <h5 class="show-list show-help-list" id="about__">
+                        About Us 
+                        <i class="fa-solid fa-angle-down show-icon icon"></i>
+                        <!-- <i class="fa-solid fa-angle-up hide-icon icon"></i> -->
+                    </h5>
+                    <ul class="links-list">
+                        <li><a href="#" title="Shop Hulu">Shop Hulu</a></li>
+                        <li><a href="#" title="Press">Press</a></li>
+                        <li><a href="#" title="Jobs">Jobs</a></li>
+                        <li><a href="#" title="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-icons">
+            <a href="#"><img src="imgs/facebook.svg" alt="facebook" title="facebook"></a>
+            <a href="#"><img src="imgs/twitter.svg" alt="twitter" title="twitter"></a>
+            <a href="#"><img src="imgs/youtube.svg" alt="youtube" title="youtube"></a>
+            <a href="#"> <img src="imgs/instagram.svg" alt="instagram" title="instagram"></a>
+        </div>
+        <div class="footer-end">
+            <a href="#">&copy; 2022 Hulu, LLC</a>
+            <a href="#">About Ads</a>
+            <a href="#">Terms of us</a>
+            <a href="#">privicy policy</a>
+            <a href="#">do not sell my personal information</a>
+            <a href="#">your california privicay Rights</a>
+            <a href="#">TV parental Guidelines</a>
+            <a href="#">Sitemap</a>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <script src="js/main.js"></script>
+</body>
+</html>
