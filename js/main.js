@@ -105,7 +105,7 @@ subLine.addEventListener("click",(e)=>{
     btnOne.classList.add("active-btn");
     subLine.classList.remove("sub-line-2","sub-line-3")
     subLine.classList.add("sub-line-1");
-    //Activate tab one
+      //Activate tab one
     tabs.classList.remove("tab-2","tab-3")
     tabs.classList.add("tab-1")
 })
